@@ -1,0 +1,48 @@
+:root {
+  --red1: #f2293a;
+  --red2: #f22727;
+  --red3: #a62934;
+  --grey: #243340;
+  --black: #06090d;
+  --white: #f5f5f5;
+}
+
+body {
+  padding: 0 20%;
+  min-height: 800px;
+  overflow: hidden;
+  background: var(--grey);
+}
+
+#bodyContainer {
+  display: inline-flex;
+  justify-content: space-between;
+  background: var(--red3);
+  height: 900px;
+  margin: 0 1.5%;
+}
+
+#bioContainer {
+  width: 70%;
+}
+
+#contactContainer {
+  display: flex;
+  flex-flow: column;
+}
+
+div > p,
+div > span,
+h1,
+h2,
+h3,
+h4 {
+  color: var(--white);
+}
+
+a,
+a:hover,
+a:focus,
+a:visited {
+  color: var(--grey);
+}
